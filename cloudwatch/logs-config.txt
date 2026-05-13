@@ -1,0 +1,20 @@
+{
+  "logs": {
+    "logs_collected": {
+      "files": {
+        "collect_list": [
+          {
+            "file_path": "/var/log/containers/cowrie*.log",
+            "log_group_name": "cowrie-logs",
+            "log_stream_name": "{instance_id}"
+          },
+          {
+            "file_path": "/var/log/containers/web-honeypot*.log",
+            "log_group_name": "web-honeypot-logs",
+            "log_stream_name": "{instance_id}"
+          }
+        ]
+      }
+    }
+  }
+}

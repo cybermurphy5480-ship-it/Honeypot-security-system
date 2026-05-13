@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-honeypot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-honeypot
+  template:
+    metadata:
+      labels:
+        app: web-honeypot
+    spec:
+      containers:
+      - name: web-honeypot
+        image: murphy5480/web-honeypot:webhoneypot
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
