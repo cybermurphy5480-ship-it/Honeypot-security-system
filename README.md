@@ -185,6 +185,7 @@ docker push yourdockerhub/web-honeypot:latest
 
 ### Step 6: Deploy Lambda Functions
 ```bash
+## You can do this by GUI as well , paste the code into lamda_fucntion ##
 cd lambda-functions
 
 # Package Scanner Lambda
