@@ -386,20 +386,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Project Maintainer**: Your Name  
-**Email**: your.email@example.com  
-**Project Link**: https://github.com/yourusername/honeypot-security-system
-
----
-
-## 📈 Roadmap
-
-- [ ] Add Elasticsearch integration for log analysis
-- [ ] Implement Grafana dashboards
-- [ ] Support for additional honeypot types (FTP, HTTP)
-- [ ] Machine learning-based threat classification
-- [ ] Terraform/CloudFormation templates
-- [ ] Docker Compose for local testing
+**Project Maintainer**: Murphy
+**Email**: cybermurphy5480@gmail.com
+**Project Link**: https://github.com/cybermurphy5480-ship-it/Honeypot-security-system
 
 ---
 
